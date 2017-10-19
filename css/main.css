@@ -1,0 +1,156 @@
+* {
+	font-family: "Avenir"; 
+
+	/* Removes user's ability to highlight text. */
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+a {
+	text-align: center;
+}
+
+#navcontents {
+	width: 100%;
+}
+
+#navBrand {
+	color: #f7f7f7; 
+	font-size: 22px;
+	margin-left: 30px;
+}
+
+#navBrand:hover {
+	cursor: default;
+}
+
+#navLogout {
+	visibility: hidden;
+	color: #f7f7f7; 
+	font-size: 22px;
+	float: right !important;
+	margin-right: -15px; 
+	width: 250px;
+}
+
+#navLogout:hover {
+	cursor: pointer;
+}
+
+#logicon {
+	width: 15%;
+	margin-top: -5px;
+}
+
+.title {
+	color: #545454;
+	text-align: center;
+}
+
+#container {
+	color: #545454;
+}
+
+.selectparent {
+	width: 900px;
+	padding-top: 5%;
+	margin: 0 auto;
+}
+
+.select {
+	width: 300px;
+	height: 300px;
+	border: 2px solid #545454;
+	text-align: center;
+	margin: -1px;
+}
+
+.select:hover {
+	cursor: pointer;
+	color: #1B96FE;
+	box-shadow: inset 0px 0px 20px 0px;
+}
+
+.select img {
+	visibility: hidden;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 78px;
+	float: right;
+	width: 60px;
+}
+
+.select h2 {
+	position: relative;
+	padding-top: 110px; 
+	vertical-align: middle;
+	font-size: 34px;
+}
+
+.selected {
+	color: #f7f7f7;
+	background-color: #1B96FE;
+	outline: 5px solid #f7f7f7;
+	outline-offset: -7px;
+}
+
+.selected:hover {
+	color: #f7f7f7;
+}
+
+#buttondiv {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 28%;
+	width: 150px;
+	height: 150px;
+}
+
+#nextarrow {
+	position: relative;
+	margin: 0 auto;
+	visibility: hidden;
+	outline: none;
+	width: 150px;
+}
+
+#loginbox {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 20px;
+	width: 40%;
+	border: 2px solid #BABABA;
+	color: #545454;
+	background-color: #EFEFEF;
+	box-shadow: 2px 2px 1px 1px black;
+}
+
+#loginbox .infoname {
+	display: inline-block;
+	padding-left: 8%;
+	width: 180px;
+	font-size: 22px;
+}
+
+#loginbox div input {
+	display: inline-block;
+	width: 50%;
+	font-size: 16px;
+}
+
+#loginbox button {
+	position: relative;
+	margin: 10px;
+	color: #f7f7f7;
+	background-color: #1B96FE;
+	width: 30%;
+	font-size: 22px;
+}
+
+.checkbox {
+	position: relative;
+	padding-left: 50px;
+	font-size: 16px;
+}
